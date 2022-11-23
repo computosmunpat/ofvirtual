@@ -1,0 +1,31 @@
+https://s002.myclubonline.com.ar:8181/Sasha/CollectionsOnLine/API/BalanceComposition
+
+{\"cuentas\": \"\",\"tipoDeuda\":\"deuda\",\"nro_documento\":\"23089806\"}
+
+
+curl  https://s002.myclubonline.com.ar:8181/Sasha/CollectionsOnLine/API/BalanceComposition --data "{\"idCompany\":150,\"personalId\":\"23089806\""}"   -k
+
+[{"number":"0-839",
+   "creditDate":"01\/04\/2019",
+   "idCreditDueDate":196927,
+   "balance":1300.0,
+   "dueDate":"30\/04\/2019",
+   "document":"Ticket",
+   "clubMember":"Olivera, Carlos David",
+   "description":"Cuota Social > Abr-19 > Deportivo Mayor"
+},
+
+{"number":"0-1",
+  "creditDate":"01\/01\/2020",
+  "idCreditDueDate":509565,
+  "balance":1000.0,
+  "dueDate":"31\/01\/2020",
+  "document":"Ticket",
+  "clubMember":"Torres, Daro",
+  "description":"Cuota Social > Ene-20 > Activo"
+}
+
+11111111
+
+
+curl https://s002.myclubonline.com.ar:8181/Sasha/CollectionsOnLine/API/CollectionsResponse --data "[{\"idCreditDueDate\":509579,\"collected\":\"true\"}]" -k
