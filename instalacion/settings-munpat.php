@@ -9,12 +9,12 @@
 					'path' => '../instalacion/logs/web_services.log'
 				],
 				// Conexión a la base de datos, motor (Usado por medoo) 
-				'db' => ["database_type" => "oracle",
-						 "database_name" => "SERVER_RAFAM",
-						 "server" =>"172.16.0.198",
-						 "port" => "1521",
-						 "username" => "OWNER_RAFAM",
-						 "password" => "ownerdba",
+				'db' => ["database_type" => "",
+						 "database_name" => "",
+						 "server" =>"",
+						 "port" => "",
+						 "username" => "",
+						 "password" => "",
 						 "charset"=>"WE8ISO8859P1",
 
 						 /*
