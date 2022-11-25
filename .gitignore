@@ -3,3 +3,5 @@
 /instalacion/settings.php
 /vendor
 /composer.lock
+/instalacion/backend-munpat.conf
+/instalacion/settings-munpat.php
